@@ -25,6 +25,11 @@
   font-size: 4vw;
 }
 
+.Intro h2 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .desc {
   font-size: 2vw;
 }

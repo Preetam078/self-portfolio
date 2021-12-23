@@ -5,6 +5,8 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Picture from "../../image/HeaderPic.png";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 function Main() {
   return (
     <div className="main">
@@ -18,16 +20,21 @@ function Main() {
       </div>
       <div className="devInfo">
         <div className="Intro">
+          <Fade left cascade>
+            <div>
+              <p>Hello I'm</p>
+              <h1>Preetam Mondal</h1>
+              <h3> -Software Engineer</h3>
+            </div>
+          </Fade>
           <div>
-            <p>Hello I'm</p>
-            <h1>Preetam Mondal</h1>
-          </div>
-          <div>
-            <h2 className="desc">
-              I design and develop services for customers of all sizes, have
-              handsome proficiency in creating modern websites and web services
-              on demand.
-            </h2>
+            <Zoom bottom cascade>
+              <h2 className="desc">
+                I design and develop services for customers of all sizes, have
+                handsome proficiency in creating modern websites and web
+                services on demand.
+              </h2>
+            </Zoom>
           </div>
         </div>
         <div className="IntroPic">
